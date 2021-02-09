@@ -1,0 +1,11 @@
+project="searce-playground"
+region="us-central1"
+billing_account="01DCF6-E8150A-687930"
+org_id="137290607384"
+kubernetes_master_authorized_networks = [
+  {
+    display_name = "Any"
+    cidr_block   = "0.0.0.0/0"
+  },
+]
+vault_project="searce-playground"
